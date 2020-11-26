@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 2.8.11)
 
 #project(libmsym C) # unfortunately GenerateExportHeader doesn't support C projects, which sort of makes this project reqire c++ =/
 
-project(libmsym 0.2.2)
+project(msym VERSION 0.2.2)
 
 option(MSYM_BUILD_EXAMPLES "Build example executables" OFF)
 option(MSYM_BUILD_PYTHON "Build python binding" OFF)
